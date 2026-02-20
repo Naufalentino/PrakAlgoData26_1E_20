@@ -34,7 +34,7 @@ class Mahasiswa20 {
                 return "Kinerja kurang";
             }
         } else {
-            return "IPK tidak valid. Harus diantara 0.0 dan 4.0";
+            return "IPK Tidak valid. Harus diantara 0.0 dan 4.0";
         }
     }
 }
