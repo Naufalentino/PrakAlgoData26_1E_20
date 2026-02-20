@@ -4,34 +4,33 @@
 <h4>NIM : 254107020057<h4>
 <h4>Kelas : TI-1E<h4>
 
-## Percobaan 2.1: Praktikum Pemilihan
+## Percobaan 2.1: Praktikum Deklarasi Class, Atribut dan Method 
 
 Hasil running program Percobaan 2.1
 
-  <img width="311" height="217" alt="Screenshot 2026-02-17 215545" src="https://github.com/user-attachments/assets/56abf292-62ef-4b2c-ac15-9e0513a5f267" />
+<img width="721" height="83" alt="Screenshot 2026-02-20 132414" src="https://github.com/user-attachments/assets/490b9e27-d5ff-4331-8dc8-a655e767587f" />
+
 
 ### Pertanyaan Percobaan 2.1
-1. Buatlah program untuk menghitung nilai akhir dari mahasiswa dengan ketentuan 20% nilai tugas, 20% dari nilai kuis, 30% nilai UTS, dan 40% nilai UAS. Setiap nilai yang dimasukkan mempunyai batas nilai 0 ‐ 100. Ketika pengguna memasukkan di luar rentang tersebut maka akan keluar output “nilai tidak valid”. Ketika nilai akhir sudah didapatkan selanjutnya lakukan konversi nilai dengan ketentuan sebagai berikut: 
-  <img width="343" height="176" alt="Screenshot 2026-02-17 220200" src="https://github.com/user-attachments/assets/5d1555e3-736c-4448-917d-bc80aa8d571c" />
-
-  Jika Nilai Huruf yang didapatkan adalah A, B+, B, C+, C maka LULUS, jika nilai huruf D dan E maka TIDAK LULUS. • Input dari program berupa komponen nilai tugas, kuis, UTS, UAS • Otuput dari program “nilai tidak valid” jika nilai yang dimasukkan diluar ketentuan • Output dari program berupa hasil nilai akhir, nilai huruf, dan keterangan LULUS/ TIDAK LULUS
+1. Sebutkan dua karakteristik class atau object! 
+2. Perhatikan class Mahasiswa pada Praktikum 1 tersebut, ada berapa atribut yang dimiliki oleh class Mahasiswa? Sebutkan apa saja atributnya!
+3. Ada berapa method yang dimiliki oleh class tersebut? Sebutkan apa saja methodnya!
+4. Perhatikan method updateIpk() yang terdapat di dalam class Mahasiswa. Modifikasi isi method tersebut sehingga IPK yang dimasukkan valid yaitu terlebih dahulu dilakukan pengecekan apakah IPK yang dimasukkan di dalam rentang 0.0 sampai dengan 4.0 (0.0 <= IPK <= 4.0). Jika IPK tidak pada rentang tersebut maka dikeluarkan pesan: "IPK tidak valid. Harus antara 0.0 dan 4.0".
+5. Jelaskan bagaimana cara kerja method nilaiKinerja() dalam mengevaluasi kinerja mahasiswa,  kriteria apa saja yang digunakan untuk menentukan nilai kinerja tersebut, dan apa yang dikembalikan (di-return-kan) oleh method nilaiKinerja() tersebut?
+   
 
 ### Jawaban Percobaan 2.1
-1. Hasil running program ketika salah satu nilai tidak valid:
-<img width="311" height="217" alt="Screenshot 2026-02-17 215545" src="https://github.com/user-attachments/assets/0aca3012-4116-4811-8fa2-d5b0d788c0b7" />
+1. Karakteristik class berupa cetak biru atau template fundamental yang mendefinisikan struktur dan memiliki atribut di dalamnya, dan karakteristik dari object berupa identitas dan behaivor.
+2. Ada 4 atribut yang terdiri dari nama, nim, kelas, dan ipk.
+3. Ada 4 method yaitu method tampilkanInformasi, updateIpk, ubahKelas, dan nilaiKinerja.
+4. Screenshot modifikasi method updateIpk dibawah ini:
 
-Hasil running program ketika mahasiswa memiliki nilai diatas D:
-   
-<img width="312" height="248" alt="Screenshot 2026-02-17 215710" src="https://github.com/user-attachments/assets/4bf7a53b-6abd-4a5e-8ded-f814fc3da6a0" />
+   <img width="519" height="272" alt="Screenshot 2026-02-20 154846" src="https://github.com/user-attachments/assets/fbab9d44-95b7-47ba-894f-1f02f43e0257" />
 
-Hasil running program ketika mahsiswa mendapatkan nilai D / E: 
-
-<img width="295" height="243" alt="Screenshot 2026-02-17 215726" src="https://github.com/user-attachments/assets/ef54544c-573e-40c7-831a-34f9305a1ba8" />
+5. Pertama method nilaiKinerja akan memakai atribut ipk untuk menghasilkan nilai return berupa string melalui pemilihan.
 
 
-
-
-## Percobaan 2.2: Praktikum Perulangan
+## Percobaan 2.2: Praktikum instansiasi Object, serta Mengakses Atribut dan Method 
 Hasil running program percobaan 2.2
 
 <img width="818" height="107" alt="Screenshot 2026-02-17 222429" src="https://github.com/user-attachments/assets/66acf669-de66-4ac1-9d1f-c6a7a36104d8" />
@@ -47,7 +46,7 @@ Hasil running program percobaan 2.2
   <img width="301" height="68" alt="Screenshot 2026-02-17 222759" src="https://github.com/user-attachments/assets/4e0cfd37-d2c6-4a77-a761-dcf43e9edeca" />
 
 
-## Percobaan 2.3: Praktikum Array
+## Percobaan 2.3: Praktikum Membuat Konstruktor 
 Hasil running program percobaan 2.3
 
 <img width="380" height="509" alt="Screenshot 2026-02-18 145625" src="https://github.com/user-attachments/assets/b2b92296-28a4-4406-bb22-b480aa2f6d5b" />
