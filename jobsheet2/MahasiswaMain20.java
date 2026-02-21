@@ -20,5 +20,9 @@ class MahasiswaMain20 {
         mhs2.tampilkanInformasi();
         System.out.println(mhs2.nilaiKinerja());
 
+
+        Mahasiswa20 mhsNaufal = new Mahasiswa20("Naufal","00000001",4.0,"TI 1E");
+        mhsNaufal.tampilkanInformasi();
+        System.out.println(mhsNaufal.nilaiKinerja());
     }
 }
