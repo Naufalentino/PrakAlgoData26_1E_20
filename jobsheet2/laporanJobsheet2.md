@@ -7,7 +7,7 @@
 ## Percobaan 2.1: Praktikum Deklarasi Class, Atribut dan Method 
 
 Hasil running program Percobaan 2.1
-
+<img width="721" height="83" alt="Screenshot 2026-02-20 132414" src="https://github.com/user-attachments/assets/19bd7ec1-cf3c-4acc-a19a-55a84965ec3a" />
   
 
 ### Pertanyaan Percobaan 2.1
@@ -17,11 +17,14 @@ Hasil running program Percobaan 2.1
 4. Perhatikan method updateIpk() yang terdapat di dalam class Mahasiswa. Modifikasi isi method tersebut sehingga IPK yang dimasukkan valid yaitu terlebih dahulu dilakukan pengecekan apakah IPK yang dimasukkan di dalam rentang 0.0 sampai dengan 4.0 (0.0 <= IPK <= 4.0). Jika IPK tidak pada rentang tersebut maka dikeluarkan pesan: "IPK tidak valid. Harus antara 0.0 dan 4.0".
 5. Jelaskan bagaimana cara kerja method nilaiKinerja() dalam mengevaluasi kinerja mahasiswa,  kriteria apa saja yang digunakan untuk menentukan nilai kinerja tersebut, dan apa yang dikembalikan (di-return-kan) oleh method nilaiKinerja() tersebut? 
 
+
 ### Jawaban Percobaan 2.1
 1. Karakteristik dari class atau objek ini yaitu penggunaan konstruktor untuk inisialisasi dan memuat method serta atribut di dalamnya.
 2. Ada 4 atribut, yang terdiri dari atribut nama, nim, ipk, dan kelas.
 3. ada 4 method, yang terdiri dari method tampilkan informasi, ubah kelas, update ipk, dan nilai kinerja
-4. 
+   
+4. Screenshot dibawah ini merupakan modifikasi method berupa penambahan pemilihan pada method updateIpk
+   
 5. Berawal dari method nilaiKinerja yang akan menggunakan ipk sebagai kriteria pemilihan, lalu di dalam method tersebut akan dilakukan pemilihan berdasarkan kriteria ipk mulai dari apakah ipk berada di rentang 0.0-4.0, lalu melakukan pemilihan yang lebih spesifik apakah ipknya kurang dari 3, kurang dari 2, dan seterusnya. Setelah melakukan pemilihan tersebut, method tersebut akan mengreturn sebuah String.
 
 
