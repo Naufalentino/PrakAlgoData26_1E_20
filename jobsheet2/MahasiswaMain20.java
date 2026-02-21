@@ -13,5 +13,12 @@ class MahasiswaMain20 {
         mhs1.updateIpk(3.60);        
         mhs1.tampilkanInformasi();
         System.out.println(mhs1.nilaiKinerja());
+
+        Mahasiswa20 mhs2 = new Mahasiswa20("Annisa Nabilla","2141720160",3.25,"TI 2L");
+        mhs2.tampilkanInformasi();
+        mhs2.updateIpk(3.30);
+        mhs2.tampilkanInformasi();
+        System.out.println(mhs2.nilaiKinerja());
+
     }
 }
