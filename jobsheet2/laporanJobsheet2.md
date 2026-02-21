@@ -7,6 +7,7 @@
 ## Percobaan 2.1: Praktikum Deklarasi Class, Atribut dan Method 
 
 Hasil running program Percobaan 2.1
+
 <img width="721" height="83" alt="Screenshot 2026-02-20 132414" src="https://github.com/user-attachments/assets/19bd7ec1-cf3c-4acc-a19a-55a84965ec3a" />
   
 
