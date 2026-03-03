@@ -8,11 +8,13 @@
 
 Hasil running program Percobaan 3.2
 
+<img width="323" height="303" alt="Screenshot 2026-02-26 075147" src="https://github.com/user-attachments/assets/205aea84-93a4-43da-8cb0-c55ca43b4442" />
 
   
 
 ### Pertanyaan Percobaan 3.2
 
+<img width="657" height="235" alt="Screenshot 2026-03-03 100654" src="https://github.com/user-attachments/assets/92137dd2-5789-4a41-8cf0-976b0c9bb942" />
 
 
 
@@ -25,30 +27,40 @@ Hasil running program Percobaan 3.2
 
 
 
-## Percobaan 3.3: Praktikum Instansiasi Object, serta Mengakses Atribut dan Method 
+## Percobaan 3.3: Praktikum Menerima Input Isian Array Menggunakan Looping 
 Hasil running program percobaan 3.3
 
+<img width="314" height="597" alt="Screenshot 2026-02-26 104436" src="https://github.com/user-attachments/assets/529ae131-834c-4851-8bfb-1b032874b507" />
 
 
 
 ### Pertanyaan Percobaan 3.3
+<img width="480" height="295" alt="Screenshot 2026-03-03 100639" src="https://github.com/user-attachments/assets/0effc92f-270c-4ae6-a03f-de6f2c0ad6c5" />
 
 
 ### Jawaban Percobaan 3.3
 1. Screenshot penambahan method cetakInfo().
-   
 
+   <img width="555" height="203" alt="Screenshot 2026-02-26 110014" src="https://github.com/user-attachments/assets/aa9893b1-bcc5-492c-9a53-a1139da9c8ba" />
 
 2. Karena elemen array pada indeks 0 belum diinisialisasi atau dibuat objeknya.
 
 
 
-## Percobaan 3.4: Praktikum Membuat Konstruktor 
-Hasil running program percobaan 2.3
+## Percobaan 3.4: Praktikum Constructor Berparameter 
+Hasil running program percobaan 3.4 sebelum modfifikasi.
+
+<img width="347" height="346" alt="Screenshot 2026-02-26 080851" src="https://github.com/user-attachments/assets/df5bc9c2-7e53-4106-ad6e-21482e75ae18" />
+
+Hasil running program sesudah modifikasi berupa menampilkan hasil inputan array of objects pada langkah terakhir
+
+<img width="323" height="648" alt="Screenshot 2026-02-26 081408" src="https://github.com/user-attachments/assets/5e6f522f-46d5-409e-af24-64a629628913" />
+
 
 
 
 ### Pertanyaan Percobaan 3.4
+<img width="657" height="235" alt="Screenshot 2026-03-03 100654" src="https://github.com/user-attachments/assets/25075e1c-13c2-4502-84b5-af46cfc025f2" />
 
 
 
@@ -56,38 +68,72 @@ Hasil running program percobaan 2.3
 ### Jawaban Percobaan 3.4
 1. Bisa, contohnya seperti screenshot di bawah ini.
 
-   <img width="584" height="137" alt="Screenshot 2026-02-21 144655" src="https://github.com/user-attachments/assets/905a9f26-4efa-4a89-84a6-b997796182db" />
+  <img width="568" height="321" alt="Screenshot 2026-03-03 101802" src="https://github.com/user-attachments/assets/13d50882-ba06-4d94-9762-0839b7f3c957" />
 
-2. Melakukan sebuah instansiasi objek berupa mhs2 dengan konstruktor yang berparameter
+2. Screenshot penambahan/modifikasi method tambahData() pada class Matakuliah, kemudian gunakan method tersebut di class MatakuliahDemo untuk menambahkan data Matakuliah.
 
-3. Dari screenshot di bawah ini dapat terlihat, jika kita menghapus baris kode yang berisi konstruktor tanpa parameter maka objek yang memanggil konstruktor tersebut akan error.
+<img width="603" height="392" alt="Screenshot 2026-03-03 105524" src="https://github.com/user-attachments/assets/79ad7e29-cd6b-4fc9-b5e0-00d0a1abed44" />
 
-   <img width="535" height="124" alt="Screenshot 2026-02-21 144930" src="https://github.com/user-attachments/assets/3834c6ed-c6b8-49d7-929f-807b538b534b" />
+<img width="521" height="24" alt="Screenshot 2026-03-03 103049" src="https://github.com/user-attachments/assets/6d12e381-a809-4208-873c-b3d75551bce7" />
 
-4. Tidak, karena pada java sekalipun kita memilih method apa yang dirunning terlebih dahulu maka itu tidak akan menimbulkan error dan method yang dipanggil akan tetap running seperti biasa.
-5.  Penambahan objek baru berupa mhs<namaMahasiswa> yang terlihat seperti screenshot dibawah.
 
-<img width="745" height="33" alt="Screenshot 2026-02-21 145251" src="https://github.com/user-attachments/assets/d812c8a2-7eb5-49fc-b313-e4990c936a0e" />
+
+3. Screenshot penambahan/modifikasi berupa method cetakInfo() pada class Matakuliah, kemudian gunakan method tersebut di class MatakuliahDemo untuk menampilkan data hasil inputan di layar.
+
+<img width="613" height="199" alt="Screenshot 2026-03-03 105537" src="https://github.com/user-attachments/assets/a4609c64-08ea-4ac3-b5cf-32711bdc682a" />
+
+<img width="377" height="19" alt="Screenshot 2026-03-03 103104" src="https://github.com/user-attachments/assets/f98e7d48-1ff4-4ffb-b8b6-547b2bb3426f" />
+
+4. Screenshot penambahan/modifikasi pada class MatakuliahDemo agar panjang (jumlah elemen) dari array of object Matakuliah ditentukan oleh user melalui input dengan Scanner.
+
+<img width="516" height="103" alt="Screenshot 2026-03-03 110023" src="https://github.com/user-attachments/assets/3bb2849b-9120-41f7-9195-ecca61d2d497" />
+
 
 
 ## 3.5 Tugas
-### Latihan 1
+### Tugas 1
 
-<img width="536" height="544" alt="Screenshot 2026-02-21 163748" src="https://github.com/user-attachments/assets/74d44b64-f502-4aad-b9e6-e3346f9eb584" />
-<img width="480" height="262" alt="Screenshot 2026-02-21 163758" src="https://github.com/user-attachments/assets/bf8820b6-ec5b-454f-88db-0bb58da83bfc" />
+<img width="643" height="378" alt="Screenshot 2026-03-03 110453" src="https://github.com/user-attachments/assets/13195de0-ad77-4e09-b2f2-317284f731ea" />
 
 
-### Jawaban Latihan 1
-Hasil running program latihan 1
+### Jawaban Tugas 1
+Hasil running program tugas 1
 
-<img width="809" height="465" alt="Screenshot 2026-02-21 164444" src="https://github.com/user-attachments/assets/b6b2d6f6-4209-4fb3-ac58-6c1063f56c00" />
+<img width="323" height="648" alt="Screenshot 2026-02-26 081408" src="https://github.com/user-attachments/assets/3f7827ae-cfd6-4244-9b3e-82b0ae7dc610" />
 
 ## Tugas 2 
-<img width="526" height="518" alt="Screenshot 2026-02-21 163813" src="https://github.com/user-attachments/assets/fde8d8e8-a74b-476e-89a9-f925bf61d079" />
-<img width="519" height="327" alt="Screenshot 2026-02-21 163823" src="https://github.com/user-attachments/assets/04ac3239-1398-4e84-9193-2d4fae75a7d9" />
+
+<img width="640" height="315" alt="Screenshot 2026-03-03 110805" src="https://github.com/user-attachments/assets/032bd937-bc94-436d-81f9-f20b77ea0cb4" />
+
 
    
-### Jawaban Latihan 2:
-Hasil running program latihan 2
+### Jawaban tugas 2:
+1. Screenshot penambahan method dataSemuaDosen() untuk menampilkan data semua dosen.
 
-<img width="324" height="378" alt="Screenshot 2026-02-21 164610" src="https://github.com/user-attachments/assets/085d24ee-b9cb-414a-b6e5-07641a45a62b" />
+<img width="573" height="333" alt="Screenshot 2026-03-03 072838" src="https://github.com/user-attachments/assets/cdbd532e-b631-42ff-ae10-f08310edc3ed" />
+
+
+2. Screenshot penambahan method jumlahDosenPerJenisKelamin() untuk menampilkan data jumlah dosen per jenis kelamin (Pria / Wanita).
+
+<img width="540" height="272" alt="Screenshot 2026-03-03 072847" src="https://github.com/user-attachments/assets/5c9f61f7-c720-42b9-80f3-4f61890e559e" />
+
+
+3. Screenshot penambahan method rerataUsiaDosenPerJenisKelamin() untuk menampilkan rata-rata usia dosen per jenis kelamin (Pria / Wanita).
+
+<img width="661" height="469" alt="Screenshot 2026-03-03 072903" src="https://github.com/user-attachments/assets/9555ad38-5469-4d86-9fb9-bc0e5b17b4a5" />
+
+
+4. Screenshot penambahan method infoDosenPalingTua() untuk menampilkan data dosen paling tua.
+
+<img width="603" height="431" alt="Screenshot 2026-03-03 072921" src="https://github.com/user-attachments/assets/9f72b242-1a69-458d-a130-261d16c52326" />
+
+
+5.  Screenshot penambahan method infoDosenPalingMuda() untuk menampilkan data dosen paling muda.
+
+<img width="619" height="429" alt="Screenshot 2026-03-03 072934" src="https://github.com/user-attachments/assets/12ee6d3c-6dc9-49e8-8517-caa2eb77a0a5" />
+
+
+Hasil running program tugas 2
+
+<img width="300" height="664" alt="Screenshot 2026-03-03 112719" src="https://github.com/user-attachments/assets/27dd8520-a1a3-401c-bfc8-e3741b016290" />
+<img width="296" height="320" alt="Screenshot 2026-03-03 112730" src="https://github.com/user-attachments/assets/8572fa15-8c7c-4b6a-ac76-ed3125f079a2" />
