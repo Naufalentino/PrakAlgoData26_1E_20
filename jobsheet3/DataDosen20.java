@@ -48,9 +48,9 @@ public class DataDosen20 {
             }
             count++;
         } 
-        for (int i = 0; i < dosen.length; i++) {
-            rata[0]=dosen[0][i];
-            rata[1]=dosen[1][i];
+        for (int i = 0; i < arrayofDosen.length; i++) {
+            rata[0]+=dosen[0][i];
+            rata[1]+=dosen[1][i];
         }
         System.out.println("Rata-rata usia ");
         System.out.printf("Dosen Wanita        : %-2.1f%n",(rata[0]/jmlWanita));
