@@ -26,21 +26,14 @@ public class DosenDemo20 {
             System.out.println("---------------------------------------");
             arrayofDosen[i]= new Dosen20 (kode, nama, jenisKelamin, usia);
         }    
-        int count = 1;
-        for (Dosen20 dosen20 : arrayofDosen) {
-            
-            System.out.println("Data Dosen ke-"+count);
-            System.out.println("Kode          : "+dosen20.kode);
-            System.out.println("Nama          : "+dosen20.nama);
-            if (dosen20.jenisKelamin==false) {
-                System.out.println("Jenis Kelamin : Pria");
-            } else {
-                System.out.println("Jenis Kelamin : Wanita");
-            }
-            System.out.println("Usia          : "+dosen20.usia);
-            System.out.println("---------------------------------------");
-            count++;
-        }
+        
+        DataDosen20 ds1 = new DataDosen20();
+        ds1.dataSemuaDosen(arrayofDosen);
+        ds1.jumlahDosenPerKelamin(arrayofDosen);
+        ds1.rerataUsiaDosenPerJenisKelamin(arrayofDosen);
+        ds1.infoDosenPalingTua(arrayofDosen);
+        ds1.infoDosenPalingMuda(arrayofDosen);
+
 
         tino.close();
     }
