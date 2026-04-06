@@ -12,7 +12,7 @@ public class SortingMain20 {
 
         System.out.println();
 
-        
+
         int b[] = {30, 20, 2, 8, 14};
 
         Sorting20 dataurut2 = new Sorting20(b, b.length);
@@ -23,5 +23,15 @@ public class SortingMain20 {
         dataurut2.tampil();
 
         System.out.println();
+        
+
+        int c[] = {40, 10, 4, 9, 3};
+
+        Sorting20 dataurut3 = new Sorting20(c, c.length);
+        System.out.println("Data awal 3");
+        dataurut3.tampil();
+        dataurut3.insertionSort();
+        System.out.println("Data yang sudah diurutkan dengan INSERTION SORT (ASC)");
+        dataurut3.tampil();
     }
 }
