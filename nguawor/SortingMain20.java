@@ -12,5 +12,16 @@ public class SortingMain20 {
 
         System.out.println();
 
+        
+        int b[] = {30, 20, 2, 8, 14};
+
+        Sorting20 dataurut2 = new Sorting20(b, b.length);
+        System.out.println("Data awal 2");
+        dataurut2.tampil();
+        dataurut2.SelectionSort();
+        System.out.println("Data yang sudah diurutkan dengan SELECTION SORT (ASC)");
+        dataurut2.tampil();
+
+        System.out.println();
     }
 }
