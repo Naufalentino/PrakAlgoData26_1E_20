@@ -1,3 +1,4 @@
+package jobsheet6;
 public class Dosen_20 {
     String kode20;
     String nama20;

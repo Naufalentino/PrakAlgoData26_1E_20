@@ -1,3 +1,4 @@
+package jobsheet6;
 public class DosenMain_20 {
     public static void main(String[] args) {
         DataDosen_20 liss = new DataDosen_20();

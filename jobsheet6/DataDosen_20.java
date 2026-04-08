@@ -1,3 +1,4 @@
+package jobsheet6;
 public class DataDosen_20 {
     Dosen_20[]dataDosen = new Dosen_20[10];
     int idx;

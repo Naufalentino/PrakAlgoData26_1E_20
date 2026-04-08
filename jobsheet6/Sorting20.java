@@ -1,3 +1,4 @@
+package jobsheet6;
 public class Sorting20{
     int [] data;
     int jumData;

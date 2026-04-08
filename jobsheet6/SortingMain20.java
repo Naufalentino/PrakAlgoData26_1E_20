@@ -1,3 +1,4 @@
+package jobsheet6;
 public class SortingMain20 {
     public static void main(String[] args) {
         int a[] = {20, 10, 2, 7, 12};
