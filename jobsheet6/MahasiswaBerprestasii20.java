@@ -38,7 +38,7 @@ public class MahasiswaBerprestasii20 {
 
     int findBinarySearch(double cari, int left, int right){
         int mid;
-        if (right>=left){
+        if (right<=left){
             mid=(left+right)/2;
             if (cari==listMhs[mid].ipk){
                 return (mid);
