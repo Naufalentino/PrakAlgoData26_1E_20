@@ -4,7 +4,7 @@
 <h4>NIM : 254107020057<h4>
 <h4>Kelas : TI-1E<h4>
 
-## Percobaan 6.2: Praktikum Mengimplementasikan Sorting menggunakan object
+## Percobaan 5.2: Praktikum Mengimplementasikan Sorting menggunakan object
 #### A. Sorting - BUBBLE SORT
 Hasil running program Percobaan 6.2 bagian A
 
@@ -20,7 +20,7 @@ Penambahan Pada class SortingMain.Java berupa deklarasi array dan objek baru
 
 <img width="497" height="168" alt="Screenshot 2026-04-06 113728" src="https://github.com/user-attachments/assets/1d8870e8-3d29-4048-8099-eec8c5aa8441" />
 
-Hasil running program Percobaan 6.2 bagian B
+Hasil running program Percobaan 5.2 bagian B
 
 <img width="331" height="156" alt="Screenshot 2026-04-06 113907" src="https://github.com/user-attachments/assets/27cc9f24-56ed-4893-bc3f-316401715f96" />
 
@@ -33,7 +33,7 @@ Penambahan Pada class SortingMain.Java berupa deklarasi array dan objek baru
 
 <img width="494" height="153" alt="Screenshot 2026-04-06 114836" src="https://github.com/user-attachments/assets/22e954c0-eab6-4f6a-91ac-64d133fd52c8" />
 
-Hasil running program Percobaan 6.2 bagian C
+Hasil running program Percobaan 5.2 bagian C
 
 <img width="350" height="230" alt="Screenshot 2026-04-06 114951" src="https://github.com/user-attachments/assets/028cc73b-d94f-4cdf-b575-06dac4d5b163" />
 
@@ -58,9 +58,9 @@ Hasil running program Percobaan 6.2 bagian C
 
 
 
-## Percobaan 6.3: Praktikum Sorting Menggunakan Array of Object
-### Percobaan 6.3
-Hasil running program percobaan 6.3 (Mengurutkan Data Mahasiswa Berdasarkan IPK (Bubble Sort))
+## Percobaan 5.3: Praktikum Sorting Menggunakan Array of Object
+### Percobaan 5.3
+Hasil running program percobaan 5.3 (Mengurutkan Data Mahasiswa Berdasarkan IPK (Bubble Sort))
 
 <img width="375" height="631" alt="Screenshot 2026-04-06 115341" src="https://github.com/user-attachments/assets/d563efa5-d71a-41c1-b105-4009b61a87c0" />
 <img width="263" height="176" alt="Screenshot 2026-04-06 115353" src="https://github.com/user-attachments/assets/e19e5338-e4af-4ae0-8261-41c6d2bc01b7" />
@@ -68,11 +68,11 @@ Hasil running program percobaan 6.3 (Mengurutkan Data Mahasiswa Berdasarkan IPK 
 
 
 
-### Pertanyaan Percobaan 6.3
+### Pertanyaan Percobaan 5.3
 
 <img width="564" height="249" alt="Screenshot 2026-04-08 120455" src="https://github.com/user-attachments/assets/709909f2-0e56-4874-acc9-658dc802dc2b" />
 
-### Jawaban Percobaan 6.3
+### Jawaban Percobaan 5.3
 1.  a. Agar iterasi nya tidak membuatnya keluar dari jumlah array / mencegah terjadi nya array outofbound.
     b. Agar setiap iterasi j yang selesai semakin lama semakin berkurang karena setiap kali satu iterasi j selesai, pasti nilai yang paling belakang sudah tentu posisinya benar dan tidak perlu melakukan pengecekan, dan itu berlanjut sampai iterasi terakhir
     c. 49 langkah 
@@ -87,7 +87,7 @@ Hasil Running dari perubahan kode program di atas
 <img width="381" height="566" alt="Screenshot 2026-04-06 171955" src="https://github.com/user-attachments/assets/f6cb5804-ec3a-457c-bcda-ac2207f7ca35" />
 
 
-### Percobaan 6.3.5
+### Percobaan 5.3.5
 Penambahan pada class MahasiswaBerprestasi.java berupa method selection sort
 
 <img width="378" height="210" alt="Screenshot 2026-04-06 193916" src="https://github.com/user-attachments/assets/18941418-438e-43e4-8564-99d96f86e88c" />
@@ -96,24 +96,24 @@ Penambahan Pada class MahasiswaDemo.java berupa menambahkan baris program untuk 
 
 <img width="515" height="63" alt="Screenshot 2026-04-06 193928" src="https://github.com/user-attachments/assets/6dd6489a-f55d-4a7e-96e0-f704570b666e" />
 
-Hasil running program percobaan 6.3.5 (Mengurutkan Data Mahasiswa Berdasarkan IPK (Selection Sort))
+Hasil running program percobaan 5.3.5 (Mengurutkan Data Mahasiswa Berdasarkan IPK (Selection Sort))
 
 <img width="279" height="457" alt="Screenshot 2026-04-06 194521" src="https://github.com/user-attachments/assets/6579de68-0ee1-43c9-803a-2d7a307f8596" />
 <img width="331" height="633" alt="Screenshot 2026-04-06 194542" src="https://github.com/user-attachments/assets/43afefe7-a092-467d-ad3f-1b4e8a152e67" />
 <img width="389" height="563" alt="Screenshot 2026-04-06 194554" src="https://github.com/user-attachments/assets/47991cf4-a22d-49c9-b0de-3275a5c70cd6" />
 
 
-### Pertanyaan Percobaan 6.3.5
+### Pertanyaan Percobaan 5.3.5
 
 <img width="495" height="206" alt="Screenshot 2026-04-08 122140" src="https://github.com/user-attachments/assets/b2721c9f-3cab-458e-b968-72362a05208f" />
 
 
 
-### Jawaban Percobaan 6.3.5
+### Jawaban Percobaan 5.3.5
 1. Di dalam kode itu pertama ada idxmin yang akan berisi index terkecil sebelum dimulai pencarian index yang lebih kecil daripada index awal, lalu perulangan akan mulai scan / iterasi satu demi satu untuk mencari index terkecil mulai dari index awal lalu +1 dan terus menerus sampai index terakhir. jika ditemukan index yang lebih kecil dari index awal maka idxmin akan menyimpan nilai terkecil yang baru, jika tidak ada maka idxmin tidak akan menyimpan nilai baru dan perulangan akan terus berlanjut sampai index terakhir.
 
 
-### Percobaan 6.4
+### Percobaan 5.4
 Penambahan pada class MahasiswaBerprestasi.java berupa method selection sort
 
 <img width="364" height="180" alt="Screenshot 2026-04-06 194830" src="https://github.com/user-attachments/assets/1344d94d-652b-422b-8e68-69e3ae51fc98" />
@@ -122,18 +122,18 @@ Penambahan Pada class MahasiswaDemo.java berupa menambahkan baris program untuk 
 
 <img width="525" height="63" alt="Screenshot 2026-04-06 194838" src="https://github.com/user-attachments/assets/8889f33b-677d-43b0-989b-ffa1b5b9dc18" />
 
-Hasil running program percobaan 6.4 (Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Insertion Sort)
+Hasil running program percobaan 5.4 (Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Insertion Sort)
 
 <img width="277" height="683" alt="Screenshot 2026-04-06 195401" src="https://github.com/user-attachments/assets/68f101ff-af40-4a90-97fa-7c661d39d050" />
 <img width="369" height="649" alt="Screenshot 2026-04-06 195435" src="https://github.com/user-attachments/assets/3a4f1e13-c690-493c-9b05-1eed1e8b7435" />
 <img width="379" height="681" alt="Screenshot 2026-04-06 195447" src="https://github.com/user-attachments/assets/f608729e-1f5f-4ff7-870c-e77ffb165869" />
 
-### Pertanyaan Percobaan 6.4
+### Pertanyaan Percobaan 5.4
 
 Ubahlah fungsi pada InsertionSort sehingga fungsi ini dapat melaksanakan proses sorting dengan cara descending.
 
 
-### Jawaban Percobaan 6.4
+### Jawaban Percobaan 5.4
 Screenshot perubahan method Insertion dari ascending menjadi descending
 
 <img width="376" height="186" alt="Screenshot 2026-04-07 055455" src="https://github.com/user-attachments/assets/3621460c-b14e-4ec2-a1c8-80ca401bdf03" />
