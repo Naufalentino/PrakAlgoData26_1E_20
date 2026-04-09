@@ -4,9 +4,12 @@ import java.util.Scanner;
 
 public class MahasiswaDemoo20 {
     public static void main(String[] args) {
-        MahasiswaBerprestasii20 list = new MahasiswaBerprestasii20(); 
+        
         Scanner tino = new Scanner(System.in); 
-        int jumMhs=5;
+        System.out.print("Jumlah Mahasiswa: ");
+        int jumMhs=tino.nextInt();
+        MahasiswaBerprestasii20 list = new MahasiswaBerprestasii20(jumMhs); 
+        tino.nextLine();
 
         for (int i = 0; i < jumMhs; i++) {
             System.out.println("Masukkan Data Mahasiswa ke-" + (i+1));

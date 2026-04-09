@@ -1,16 +1,19 @@
 package jobsheet6;
 
 public class MahasiswaBerprestasii20 {
-    Mahasiswaa20 []listMhs = new Mahasiswaa20[5]; 
-    int idx;
+    Mahasiswaa20 []listMhs ;
+    int idx; 
 
+    public MahasiswaBerprestasii20(int jumlah){
+        listMhs  = new Mahasiswaa20[jumlah];
+    }
 
     void tambah (Mahasiswaa20 m){
         if (idx<listMhs.length){
             listMhs[idx]=m;
             idx++;
         } else{
-            System.out.println("data sudah penuh");
+            System.out.println("Data sudah penuh!");
         }
     }
 
