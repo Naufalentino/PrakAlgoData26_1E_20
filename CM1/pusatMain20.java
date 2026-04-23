@@ -4,14 +4,32 @@ import java.util.Scanner;
 
 public class pusatMain20 {
 
+    static void sortbyName (Peminjaman__20 []pnjm){
+        for (int i = 1; i < 5; i++) {
+            Peminjaman__20 temp = pnjm[i];
+            int j=i;
+            while (j>0 && 0==(pnjm[j-1].mhs.nama).compareTo(temp.mhs.nama)) {
+                pnjm[j]=pnjm[j-1];
+                j--;
+            }
+            pnjm[j]=temp;
+        }
+    }
+
     //insertion sort untuk sorting sberdasarkan denda (DESC)
     static void insertionSort (Peminjaman__20 []pnjm){
         for (int i = 1; i < 5; i++) {
             Peminjaman__20 temp = pnjm[i];
             int j=i;
             while (j>0 && pnjm[j-1].denda<temp.denda) {
-                pnjm[j]=pnjm[j-1];
-                j--;
+                if (pnjm[j-1].denda==temp.denda){
+                    sortbyName(pnjm);
+                    break;
+                } else {
+                    pnjm[j]=pnjm[j-1];
+                j   --;
+                }
+                
             }
             pnjm[j]=temp;
         }
@@ -87,18 +105,18 @@ public class pusatMain20 {
     
 
         Buku__20 [] buku = new Buku__20[4];
-        buku[0]=new Buku__20("B001", "Algoritma", 2020);
-        buku[1]=new Buku__20("B002", "Basis Data", 2019);
-        buku[2]=new Buku__20("B003", "Pemrograman", 2021);
-        buku[3]=new Buku__20("B004", "Fisika", 2024);
+        buku[0]=new Buku__20("B001", "Algoritma", 2020, "Grade A");
+        buku[1]=new Buku__20("B002", "Basis Data", 2019, "Grade B");
+        buku[2]=new Buku__20("B003", "Pemrograman", 2021, "Grade A");
+        buku[3]=new Buku__20("B004", "Fisika", 2024, "Grade B");
         
         
         Peminjaman__20 [] pnjm = new Peminjaman__20[5];
-        pnjm[0] = new Peminjaman__20(mhs[0], buku[0], 7);
-        pnjm[1] = new Peminjaman__20(mhs[1], buku[1], 3);
-        pnjm[2] = new Peminjaman__20(mhs[2], buku[2], 10);
-        pnjm[3] = new Peminjaman__20(mhs[2], buku[3], 6);
-        pnjm[4] = new Peminjaman__20(mhs[0], buku[3], 4);
+        pnjm[0] = new Peminjaman__20(mhs[0], buku[0], 7, buku[3].statusBuku);
+        pnjm[1] = new Peminjaman__20(mhs[1], buku[1], 3, buku[1].statusBuku);
+        pnjm[2] = new Peminjaman__20(mhs[2], buku[2], 10, buku[2].statusBuku);
+        pnjm[3] = new Peminjaman__20(mhs[2], buku[3], 6, buku[0].statusBuku);
+        pnjm[4] = new Peminjaman__20(mhs[0], buku[3], 6, buku[0].statusBuku);
 
         //untuk menghitung berapa denda
         for (Peminjaman__20 pn : pnjm) {
