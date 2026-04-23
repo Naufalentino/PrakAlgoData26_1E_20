@@ -15,6 +15,7 @@ public class MahasiswaaDemo20 {
             System.out.println("3. Melihat Tugas Teratas");
             System.out.println("4. Melihat Tugas Terbawah(Pertama)");
             System.out.println("5. Melihat Daftar Tugas");
+            System.out.println("6. Melihat Total Tugas");
             System.out.print("Pilih: ");
             pilih = tino.nextInt();
             tino.nextLine();
@@ -57,10 +58,14 @@ public class MahasiswaaDemo20 {
                     System.out.println("Nama\tNIM\tKelas");
                     stack.print();
                     break;
+                case 6:
+                    System.out.print("Total tugas yang telah dikumpulkan sebanyak ");
+                    stack.totalTugas();
+                    break;
                 default:
                     System.out.println("Pilihan tidak valid.");
             }
-        } while (pilih >= 1 && pilih <= 5);
+        } while (pilih >= 1 && pilih <= 6);
         tino.close();
     }
 }

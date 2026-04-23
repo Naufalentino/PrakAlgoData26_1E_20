@@ -65,11 +65,19 @@ public class StackTugasMahasiswa20 {
             return null;
         }
     }
-    
+
     public void print(){
         for (int i = top; i >= 0; i--) {
            System.out.println(stack[i].nama + "\t"+stack[i].nim + "\t"+stack[i].kelas); 
         }
         System.out.println();
+    }
+
+    public void totalTugas(){
+        int total=0;
+        for (int i = top; i >= 0; i--) {
+           total += 1; 
+        }
+        System.out.println(total);
     }
 }
