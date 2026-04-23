@@ -13,7 +13,8 @@ public class MahasiswaaDemo20 {
             System.out.println("1. Mengumpulkan Tugas");
             System.out.println("2. Menilai Tugas");
             System.out.println("3. Melihat Tugas Teratas");
-            System.out.println("4. Melihat Daftar Tugas");
+            System.out.println("4. Melihat Tugas Terbawah(Pertama)");
+            System.out.println("5. Melihat Daftar Tugas");
             System.out.print("Pilih: ");
             pilih = tino.nextInt();
             tino.nextLine();
@@ -43,9 +44,15 @@ public class MahasiswaaDemo20 {
                     Mahasiiswa20 lihat = stack.peek();
                     if (lihat != null) {
                         System.out.println("Tugas terakhir dikumpulkan oleh " + lihat.nama);
-                        break;
                     }
-                case 4:
+                    break;
+                case 4: 
+                    Mahasiiswa20 lihat2 = stack.peekbawah();
+                    if (lihat2 != null) {
+                        System.out.println("Tugas pertama dikumpulkan oleh " + lihat2.nama);
+                    }
+                    break;
+                case 5:
                     System.out.println("Daftar semua tugas");
                     System.out.println("Nama\tNIM\tKelas");
                     stack.print();
@@ -53,7 +60,7 @@ public class MahasiswaaDemo20 {
                 default:
                     System.out.println("Pilihan tidak valid.");
             }
-        } while (pilih >= 1 && pilih <= 4);
+        } while (pilih >= 1 && pilih <= 5);
         tino.close();
     }
 }
