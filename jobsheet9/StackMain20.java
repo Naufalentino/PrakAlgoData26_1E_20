@@ -33,7 +33,7 @@ public class StackMain20 {
                     int durasi = Integer.parseInt(dummy);
                     Surat20 srt = new Surat20 (idSurat, nama, kelas, jenisIzin, durasi);
                     stack.proses_surat_izin(srt);
-                    System.out.printf("Surat %s berhasil dikumpulkan\n", srt.namaMahasiswa);
+                    System.out.printf("Surat %s berhasil diproses\n", srt.namaMahasiswa);
                     break;
                 case 2:
                     Surat20 diterima = stack.terima_surat_izin();
@@ -44,7 +44,7 @@ public class StackMain20 {
                 case 3:
                     Surat20 lihat = stack.lihat_surat_izin_terakhir();
                     if (lihat != null) {
-                        System.out.println("Surat terakhir dikumpulkan oleh " + lihat.namaMahasiswa);
+                        System.out.println("Surat terakhir yang diproses adalah surat milik " + lihat.namaMahasiswa);
                     }
                     break;
                 case 4: 
