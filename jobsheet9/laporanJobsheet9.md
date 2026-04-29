@@ -73,6 +73,8 @@ Setelah itu semua barulah mengreturnkan nilai string yang berisi susunan biner y
 <img width="629" height="518" alt="Screenshot 2026-04-28 223836" src="https://github.com/user-attachments/assets/3939593b-d2aa-46d5-a038-9aabb56975b8" />
 
 ### Hasil Running kode program dari studi kasus
+<img width="384" height="585" alt="Screenshot 2026-04-29 094949" src="https://github.com/user-attachments/assets/bae58ffa-3097-4b3f-933d-2d16765af7a1" />
 
+<img width="376" height="470" alt="Screenshot 2026-04-29 094959" src="https://github.com/user-attachments/assets/e87fa12f-a9e3-4320-87ae-b949ba5279ac" />
 
 
