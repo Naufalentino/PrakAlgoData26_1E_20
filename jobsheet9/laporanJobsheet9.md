@@ -70,7 +70,9 @@ Setelah itu semua barulah mengreturnkan nilai string yang berisi susunan biner y
 
 ## 2.4 Latihan Praktikum
 ### Studi kasus 
-
+<img width="629" height="518" alt="Screenshot 2026-04-28 223836" src="https://github.com/user-attachments/assets/3939593b-d2aa-46d5-a038-9aabb56975b8" />
 
 ### Hasil Running kode program dari studi kasus
+
+
 
