@@ -22,13 +22,19 @@ public class QueueMain20 {
             pilih = tino.nextInt();
             switch (pilih) {
                 case 1:
-                    System.out.print("Masukkan data baru: ");
-                    int dataMasuk = tino.nextInt();
-                    Q.enqueue(dataMasuk);
+                    if (!(Q.isFull())) {
+                        System.out.print("Masukkan data baru: ");
+                        int dataMasuk = tino.nextInt(); 
+                        Q.enqueue(dataMasuk);
+                    } else {
+                        System.out.println("Queue sudah penuh");
+                    }
                     break;
                 case 2:
-                    int dataKeluar = Q.dequeue();
-                    if (dataKeluar != 0) {
+                    if (Q.isEmpty()){
+                        System.out.println("Queue masih kosong");
+                    } else {
+                        int dataKeluar = Q.dequeue();
                         System.out.println("Data yang dikeluarkan: "+dataKeluar);
                     }
                     break;
@@ -42,7 +48,7 @@ public class QueueMain20 {
                     Q.clear();
                     break;
             }
-        } while(pilih>0&&pilih<5);
+        } while(pilih>0&&pilih<=5);
         tino.close();
     }
 }
