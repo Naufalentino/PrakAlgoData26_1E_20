@@ -8,73 +8,88 @@
 
 Hasil running program Percobaan 2.1
 
-<img width="272" height="670" alt="Screenshot 2026-04-23 091937" src="https://github.com/user-attachments/assets/eed538af-82c1-42c5-8288-104021611876" />
+<img width="266" height="573" alt="Screenshot 2026-04-29 232838" src="https://github.com/user-attachments/assets/e6165a3b-79fc-4d00-98a3-659e00b66540" />
 
-<img width="253" height="608" alt="Screenshot 2026-04-23 091953" src="https://github.com/user-attachments/assets/cc2718d4-cc01-4bcc-b844-dbb37b772451" />
 
 
 ### Pertanyaan Percobaan 2.1
 
-<img width="627" height="331" alt="Screenshot 2026-04-28 215421" src="https://github.com/user-attachments/assets/37bb1541-f34a-40f6-9411-ee92df4f77c8" />
+<img width="700" height="514" alt="Screenshot 2026-05-04 084011" src="https://github.com/user-attachments/assets/b7cd4fb6-e241-4aba-8174-71d968563abc" />
+
 
 
 ### Jawaban Percobaan 2.1
-1. Melakukan perbaikan pada kode program bagian proses print seluruh tugas seperti screenshot di bawah ini.<br>
-Sebelum dirubah:
-<img width="646" height="126" alt="Screenshot 2026-04-23 092317" src="https://github.com/user-attachments/assets/6e6ba357-236a-4171-a206-670179225cb6" /> <br>
-Sesudah dirubah:
-<img width="644" height="125" alt="Screenshot 2026-04-23 092527" src="https://github.com/user-attachments/assets/3cda53c3-dc57-4f55-b37f-ca1298afca97" /> <br>
+1. Karena dalam pemrograman, indeks array dimulai dari 0. Oleh karena itu, -1 digunakan untuk menunjukkan posisi yang tidak valid atau di luar batas bawah array, menandakan belum ada data yang masuk. Sedangkan size disini merujuk ke jumlah data kosong/jumlah storage yang kosong.
 
-2. Jumlah nya bisa diatur sendiri pada kode programnya, namun pada kasus ini hanya 5 data saja yang bisa dimasukkan pada stack ini.<br>
-Screenshot bagian kode program:
-<img width="493" height="25" alt="Screenshot 2026-04-23 092708" src="https://github.com/user-attachments/assets/dcac327d-2528-436a-9fd2-560a365103cf" /> <br>
+2. Maksud dari pemilihan ini berfungsi untuk memindahkan nilai rear ke 0 jika nilai dari rear sama dengan max-1 (jumlah panjang array)
 
-3. Pengecekan apakah tidak full atau !isFull berfungsi supaya tidak terjadi yang namanya error indexoutofbound saat melakukan proses penambahan data. Jika tidak ada if else nya maka akan rentan atau bisa saja terjadi yang namanya error array indexoutofbound.
+3. Maksud dari pemilihan ini berfungsi untuk memindahkan nilai front ke 0 jika nilai dari front sama dengan max-1 (jumlah panjang array)
 
-4. Melakukan modifikasi kode program pada class MahasiswaDemo dan StackTugasMahasiswa sehingga pengguna juga dapat melihat mahasiswa yang pertama kali mengumpulkan tugas melalui operasi lihat tugas terbawah.<br>
-Screenshot modifikasi kode program pada class MahasiswaDemo:
-<img width="574" height="99" alt="Screenshot 2026-04-23 095054" src="https://github.com/user-attachments/assets/3cf12651-2b8a-4afd-b0bf-bb1685deafc6" /><br>
-Screenshot modifikasi kode program pada class StackTugasMaasiswa:
-<img width="632" height="165" alt="Screenshot 2026-04-23 095122" src="https://github.com/user-attachments/assets/9b28e022-7060-4a1a-b6a7-9a8a1cf20b4e" /><br>
-Screenshot hasil running modifikasi program:
-<img width="257" height="607" alt="Screenshot 2026-04-23 095307" src="https://github.com/user-attachments/assets/50834cd0-3004-42e3-891a-7d5ba9130e57" /><br>
-<img width="265" height="519" alt="Screenshot 2026-04-23 095319" src="https://github.com/user-attachments/assets/53c51c01-ed08-4396-8c38-3cadb7947f2f" /><br>
+4. Karena pada kasus ini queue beroperasi dengan prinsip FIFO Setelah beberapa operasi dequeue (penghapusan), elemen terdepan yang sebenarnya (elemen yang masuk paling awal) tidak lagi berada di indeks array 0, melainkan bergeser ke indeks yang lebih tinggi sesuai posisi pointer front.
 
-5. Penambahan method untuk dapat menghitung berapa banyak tugas yang sudah dikumpulkan saat ini. <br>
-Screenshot penambahan kode program pada StackTugasMahasiswa:
-<img width="288" height="146" alt="Screenshot 2026-04-23 100652" src="https://github.com/user-attachments/assets/3bc7e8e4-d464-46b3-9bda-2980eea82327" /><br>
-Screenshot penambahan kode program pada MahasiswaDemo:
-<img width="558" height="101" alt="Screenshot 2026-04-23 100644" src="https://github.com/user-attachments/assets/fa3d7cf4-0d1f-47ec-ba1a-92919f55c955" /><br>
-Screenshot Hasil running penambahan kode program:
-<img width="333" height="392" alt="Screenshot 2026-04-23 100547" src="https://github.com/user-attachments/assets/dadb53e6-5135-4ecd-90d4-5c4cecd80403" /><br>
+5. Ini digunakan karena queue berprisnip FIFO yang membuat jika terjadi dequeue maka maka iterasi i bisa terus berputar setelah mencapai max lalu putar lagi ke index 0 sampai habis.
+
+6. Screenshot di bawah ini menunjukkan kode program yang merupakan qeue overflow :
+   <img width="326" height="58" alt="Screenshot 2026-05-04 083803" src="https://github.com/user-attachments/assets/e420e216-c203-44e5-beb8-9fb4295fe078" />
+
+7. Hasil modifikasi berupa pengehentian program :
+   Screenshot kode program :
+   <img width="434" height="265" alt="Screenshot 2026-05-04 085919" src="https://github.com/user-attachments/assets/18c6b1f9-cb6f-4638-aef7-8020461ad6f6" />
+
+
+   Hasil Run Modifikasi Kode Program:
+   <img width="243" height="428" alt="Screenshot 2026-04-30 073916" src="https://github.com/user-attachments/assets/fbe15d10-fe68-46f2-bc9d-f9a1c1e32fd1" />
+   <img width="271" height="425" alt="Screenshot 2026-04-30 074025" src="https://github.com/user-attachments/assets/31c5192a-e021-46b0-965a-35179410a5b4" />
+
+
 
 
 ## 2.2 Percobaan 2: Praktikum konversi ke biner
 Hasil running program percobaan 2.2
+<img width="248" height="609" alt="Screenshot 2026-04-30 085735" src="https://github.com/user-attachments/assets/4404f944-c226-4e78-8a1a-423be2d16996" />
+<img width="264" height="635" alt="Screenshot 2026-04-30 085748" src="https://github.com/user-attachments/assets/510b9e67-7221-457a-924e-bf73fff5993c" />
 
-<img width="313" height="618" alt="Screenshot 2026-04-23 192450" src="https://github.com/user-attachments/assets/222d92e9-44d2-485b-a64c-b9abf31cb78e" />
+
 
 ### Pertanyaan Percobaan 2.2
 
-<img width="621" height="83" alt="Screenshot 2026-04-28 223720" src="https://github.com/user-attachments/assets/18741227-a64b-4840-a346-c045534313df" />
+<img width="581" height="112" alt="Screenshot 2026-05-04 084044" src="https://github.com/user-attachments/assets/b77056ef-7e8a-43ac-9afb-480f5dd339e2" />
+
 
 
 ### Jawaban Percobaan 2.2
-1. Dimulai dari pembuatan stack untuk tempat konversi tersebut, lalu melakukan perulangan selagi nilai/parameter lebih dari 0 yang di dalam perulangan tersebut ada proses konversi biner seperti nilai dmodulo 2 lalu sisa dari modulo dimasukkan kedalam stack dan melakukan pembagian berupa nilai / 2 supaya makin lama nilai tersebut akan menurun. <br>
-Proses itu akan terus berlanjut sampai perulangan selesai atau nilai sudah mencapai 0. Setelah itu menyiapkan tempat/variabel untuk susunan biner yang akan dioutputkan dan pada stack yang berisi biner tersebut dilakukan string+=stack.pop yang membuatnya mengambil nilai teratas dari stack dan menaruhnya satu persatu dalam string yang akan menjadi susunan biner yang benar.
-Setelah itu semua barulah mengreturnkan nilai string yang berisi susunan biner yang sudah terurut tersebut.<br>
+1. Hasil modifikasi program berupa method dan pemanggilan yang berfungsi untuk melihat data paling terakhir :
+   Screenshot modifikasi program pada class AntrianLayanan :
+   <img width="403" height="156" alt="Screenshot 2026-05-04 091208" src="https://github.com/user-attachments/assets/474948a3-f375-4c10-8385-d3f74ce577b6" />
+   
+   Screenshot modifikasi program pada class LayananAkademikSIAKAD :
+   <img width="462" height="159" alt="Screenshot 2026-05-04 091142" src="https://github.com/user-attachments/assets/f5d8cdc4-6e19-48af-86d3-0a464e8bf561" />
+   <img width="183" height="55" alt="Screenshot 2026-05-04 091150" src="https://github.com/user-attachments/assets/e65573ad-bfb9-4510-a163-60dd1c7c29dc" />
 
-2. Tetap bisa dijalankan, karena dikasus ini konversi biner yang kondisi terkecil dari nilai/parameter yang diberikan adalah 0 dan tidak mungkin -1 yang membuatnya masih memungkinkan untuk melakukan konversi biner. <br>
+   Screenshot hasil run modifikasi kode program :
+   <img width="232" height="644" alt="Screenshot 2026-04-30 091227" src="https://github.com/user-attachments/assets/652e7c47-3734-415d-aefa-fffdf86fb290" />
+   <img width="232" height="191" alt="Screenshot 2026-04-30 091237" src="https://github.com/user-attachments/assets/51197dd5-4529-434b-bc9b-e0fe681b65e3" />
 
 
 
-## 2.4 Latihan Praktikum
+
+## 2.3 Tugas
 ### Studi kasus 
-<img width="629" height="518" alt="Screenshot 2026-04-28 223836" src="https://github.com/user-attachments/assets/3939593b-d2aa-46d5-a038-9aabb56975b8" />
+<img width="585" height="337" alt="Screenshot 2026-05-04 084323" src="https://github.com/user-attachments/assets/72892d29-c2fa-4967-bc18-0421e49b982b" />
 
 ### Hasil Running kode program dari studi kasus
-<img width="384" height="585" alt="Screenshot 2026-04-29 094949" src="https://github.com/user-attachments/assets/bae58ffa-3097-4b3f-933d-2d16765af7a1" />
+1. Gamabar Diagram :
+   <img width="617" height="443" alt="Screenshot 2026-04-30 212626" src="https://github.com/user-attachments/assets/ffe619bc-fa71-4d35-9fc2-a18c0250aebf" />
 
-<img width="376" height="470" alt="Screenshot 2026-04-29 094959" src="https://github.com/user-attachments/assets/e87fa12f-a9e3-4320-87ae-b949ba5279ac" />
+2. Hasil Run dari beberapa method :
+   <img width="318" height="684" alt="Screenshot 2026-05-01 214748" src="https://github.com/user-attachments/assets/af94764a-30da-41d5-9101-7568a7299dba" />
+   <img width="351" height="627" alt="Screenshot 2026-05-01 214800" src="https://github.com/user-attachments/assets/57d9e462-0616-4c74-b6a5-ed6f1b104cb0" />
+   <img width="371" height="246" alt="Screenshot 2026-05-01 214815" src="https://github.com/user-attachments/assets/48bbcc2b-9431-4860-931f-3c0b14ea4ad3" />
+   <img width="330" height="304" alt="Screenshot 2026-05-01 214834" src="https://github.com/user-attachments/assets/b873fbf3-0c33-46d5-b94f-647e9c249961" />
+   
+
+
+
+
 
 
