@@ -4,7 +4,7 @@
 <h4>NIM : 254107020057<h4>
 <h4>Kelas : TI-1E<h4>
 
-## 2.1 Percobaan 1: Praktikum pembuatan stack dan method yang ada pada stack 
+## 2.1 Percobaan 1: Praktikum Operasi Dasar Queue 
 
 Hasil running program Percobaan 2.1
 
@@ -44,7 +44,7 @@ Hasil running program Percobaan 2.1
 
 
 
-## 2.2 Percobaan 2: Praktikum konversi ke biner
+## 2.2 Percobaan 2: Praktikum Antrian Layanan Akademik 
 Hasil running program percobaan 2.2
 <img width="248" height="609" alt="Screenshot 2026-04-30 085735" src="https://github.com/user-attachments/assets/4404f944-c226-4e78-8a1a-423be2d16996" />
 <img width="264" height="635" alt="Screenshot 2026-04-30 085748" src="https://github.com/user-attachments/assets/510b9e67-7221-457a-924e-bf73fff5993c" />
