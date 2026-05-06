@@ -19,6 +19,18 @@ public class SLLMain20 {
             Mahasiswa020 m = new Mahasiswa020(nim,nama,kelas,ipk);
             sll.addFirst(m);
         }
+        sll.print();
+        System.out.println("data index 1 : ");
+        sll.getData(1);
+
+        System.out.println("data mahasiswa an bimon berada pada index : "+sll.indexOf("bimon"));
+        System.out.println();
+
+        sll.removeFirst();
+        sll.removeLast();
+        sll.print();
+        sll.removeAt(0);
+        sll.print();
 
         tino.close();
     }
