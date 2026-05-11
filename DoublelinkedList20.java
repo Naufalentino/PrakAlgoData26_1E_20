@@ -21,7 +21,7 @@ public class DoublelinkedList20 {
             }
             System.out.println("");
         } else {
-            System.out.println("Linked list kosong");
+            System.out.println("Linked list  masih kosong");
         }
     }
 
