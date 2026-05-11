@@ -74,6 +74,8 @@ public class DoubleLinkedListMain20 {
                     break;
                 case 6:
                     list.print();
+                    System.out.println();
+                    list.printReverse();
                     break;
                 case 0:
                     System.out.println("Program selesai.");

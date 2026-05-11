@@ -25,6 +25,20 @@ public class DoublelinkedList20 {
         }
     }
 
+    public void printReverse(){
+        if (!isEmpty()) {
+            Node20 tmp = tail;
+            System.out.print("Linked Lists Reversed:\t\n");
+            while (tmp != null) {
+                tmp.data.tampilInformasi();
+                tmp = tmp.prev;
+            }
+            System.out.println("");
+        } else {
+            System.out.println("Linked list  masih kosong");
+        }
+    }
+
     public void addFirst(Maahaasiiswaa20 input){
         Node20 newNode = new Node20(input);
         if (isEmpty()) {
