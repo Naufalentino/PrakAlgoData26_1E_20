@@ -90,23 +90,34 @@ public class DoublelinkedList20 {
     }
 
     public void removeFirst(){
+        Node20 tmp = head;
         if (isEmpty()) {
             System.out.println("Linked list masih Kosong, tidak dapat dihapus!");
         } else if (head == tail) {
             head = tail = null;
+            System.out.println("Data berhasil dihapus.");
+            tmp.data.tampilInformasi();
         } else {
             head = head.next;
             head.prev = null;
+            System.out.println("Data berhasil dihapus.");
+            tmp.data.tampilInformasi();
         }
     }
+
     public void removeLast(){
+        Node20 tmp = tail;
         if (isEmpty()) {
             System.out.println("Linked list masih Kosong, tidak dapat dihapus!");
         } else if (head == tail) {
             head = tail = null;
+            System.out.println("Data berhasil dihapus.");
+            tmp.data.tampilInformasi();
         } else {
             tail = tail.prev;
             tail.next = null;
+            System.out.println("Data berhasil dihapus.");
+            tmp.data.tampilInformasi();
         }
     }
 }
