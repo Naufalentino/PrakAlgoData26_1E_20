@@ -10,10 +10,20 @@ public class BinaryTreeArrayMain20 {
         Mahasiswa200 mhs6 = new Mahasiswa200("244160205", "Ehsan", "D", 3.37);
         Mahasiswa200 mhs7 = new Mahasiswa200("244160170", "Fizi", "B", 3.46);
         
-        Mahasiswa200[] dataMahasiswa = {mhs1, mhs2, mhs3, mhs4, mhs5, mhs6, mhs7, null, null, null};
-        int idxLast = 6;
-        bta.populateData(dataMahasiswa, idxLast);
+        // Mahasiswa200[] dataMahasiswa = {mhs1, mhs2, mhs3, mhs4, mhs5, mhs6, mhs7, null, null, null};
+        // int idxLast = 6;
+        // bta.populateData(dataMahasiswa, idxLast);
+        bta.add(mhs1);
+        bta.add(mhs2);
+        bta.add(mhs3);
+        bta.add(mhs4);
+        bta.add(mhs5);
+        bta.add(mhs6);
+        bta.add(mhs7);
+        System.out.println(bta.idxLast);
         System.out.println("\nInorder Traversal Mahasiswa: ");
         bta.traverseInOrder(0);
+        System.out.println("\nPreorder Traversal Mahasiswa: ");
+        bta.traversePreOrder(0);
     }
 }
