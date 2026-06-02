@@ -8,11 +8,12 @@
 
 Hasil running program Percobaan 14.2
 
-
-
+<img width="444" height="655" alt="Screenshot 2026-05-29 220323" src="https://github.com/user-attachments/assets/6efa4b93-d951-4eaa-84ad-ca39a09454e1" />
+<img width="577" height="211" alt="Screenshot 2026-05-29 220334" src="https://github.com/user-attachments/assets/f46e5932-13a0-4b3f-bee8-2eda159a4d21" />
 
 ### Pertanyaan Percobaan 14.2
 
+<img width="627" height="365" alt="Screenshot 2026-06-02 220730" src="https://github.com/user-attachments/assets/7fc9e839-faab-435e-a977-ee1cbfcde876" />
 
 
 ### Jawaban Percobaan 14.2
@@ -37,11 +38,14 @@ Hasil running program Percobaan 14.2
 Hasil running program percobaan 14.3
 
 
+<img width="447" height="177" alt="Screenshot 2026-05-29 220351" src="https://github.com/user-attachments/assets/41ed6f8a-c49e-4d63-b67a-88aea537a00c" />
+
 
 
 
 ### Pertanyaan Percobaan 14.3
 
+<img width="548" height="152" alt="Screenshot 2026-06-02 220741" src="https://github.com/user-attachments/assets/bc0b73f4-37b4-4347-b0a0-fe947699815a" />
 
 
 ### Jawaban Percobaan 14.3
@@ -61,23 +65,39 @@ Hasil running program percobaan 14.3
 ## 14.4 Tugas
 ### Studi kasus 
 
+<img width="547" height="195" alt="Screenshot 2026-06-02 220751" src="https://github.com/user-attachments/assets/5e88d738-4139-4d32-b4b4-230d6e6691c2" />
+
 
 ### Hasil Running kode program dari studi kasus
-   Hasil Run dari beberapa method :
-   Method Addrekursif : 
+   Hasil Run dan dokumentasi beberapa method penambahan :
+   Hasil Run pada BinaryTreeMain : <br>
+   <img width="435" height="632" alt="Screenshot 2026-06-02 224646" src="https://github.com/user-attachments/assets/75a4fab4-c767-472d-87d2-1b97e774854b" />
+   <img width="554" height="375" alt="Screenshot 2026-06-02 224655" src="https://github.com/user-attachments/assets/3164cb54-d592-409d-98f0-6204b45d5ac8" />
+
+   Hasil Run pada BinaryTreeArrayMain: <br>
+   <img width="431" height="318" alt="Screenshot 2026-06-02 224712" src="https://github.com/user-attachments/assets/610b66a5-63e7-48bb-856e-f31737743cbb" />
+
+   
+   Method Addrekursif : <br>
+   <img width="555" height="352" alt="Screenshot 2026-06-02 224130" src="https://github.com/user-attachments/assets/054fc54e-2cfc-443c-82b5-3d2ca9c3a614" />
 
 
-   Method cariMinIPK : 
+   Method cariMinIPK :<br>
+<img width="397" height="196" alt="Screenshot 2026-06-02 224138" src="https://github.com/user-attachments/assets/987fd4a7-59f3-4543-a1bb-133f206cea48" />
 
 
-   Method cariMaxIPK :
+   Method cariMaxIPK :<br>
+<img width="395" height="192" alt="Screenshot 2026-06-02 224145" src="https://github.com/user-attachments/assets/535feda9-0393-4c41-ab01-6160b80b8e02" />
 
 
-   Method tampilIPKMahasiswadiAtas :
+   Method tampilIPKMahasiswadiAtas : <br>
+<img width="563" height="143" alt="Screenshot 2026-06-02 224246" src="https://github.com/user-attachments/assets/917fd3c8-a1f0-47e6-ac9a-93dc98a78ed4" />
 
 
-   Method add pada binarytreearray :
+   Method add pada binarytreearray : <br>
+<img width="506" height="328" alt="Screenshot 2026-06-02 224309" src="https://github.com/user-attachments/assets/57256508-fa37-47be-a114-3e4fb5302001" />
 
 
-   Method traversePreOrder pada binarytreearray :
+   Method traversePreOrder pada binarytreearray : <br>
+<img width="521" height="135" alt="Screenshot 2026-06-02 224315" src="https://github.com/user-attachments/assets/f226b01c-1531-483d-92f4-275029659928" />
 
