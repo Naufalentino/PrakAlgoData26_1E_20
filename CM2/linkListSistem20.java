@@ -6,12 +6,17 @@ public class linkListSistem20 {
     nodeSistem20 headPesanan;
     nodeSistem20 tailAntrian;
     nodeSistem20 tailPesanan;
+    nodeRekap headRekap;
+    nodeRekap tailRekap;
+    
     int count=1; //untuk nilai auto increment data no pesanan pada antrian
     int size=0; //untuk jumlah data yang ada pada pesanan
 
     public linkListSistem20(){
         headAntrian = null;
         headPesanan = null;
+        headRekap = null;
+        tailRekap = null;
         tailAntrian = null;
         tailPesanan = null;
     }
@@ -78,7 +83,29 @@ public class linkListSistem20 {
             temp = tailPesanan;
         }
         System.out.println(tmp.data.name_or_namaPesanan+" telah memesan "+temp.data.name_or_namaPesanan);
-        size++;
+
+        //pengecekan rekap
+        if (headRekap == null) {
+            headRekap = new nodeRekap(new rekapsistem20(temp.data.name_or_namaPesanan, 1));
+            tailRekap = headRekap;
+        } else {
+            //penambahan rekap jika nama pesanan baru belum ada dalam rekap
+            System.out.println("Tes");
+            nodeRekap temporary = headRekap;
+            while ((temporary.data.namaPesanan.equalsIgnoreCase(newNode.data.name_or_namaPesanan))){
+                System.out.println("Tes2");
+                if (temporary.data.namaPesanan.equalsIgnoreCase(newNode.data.name_or_namaPesanan)){
+                    temporary.data.jumlahPesanan += 1;
+                    size++;
+                    return;
+                }
+                temporary = temporary.next;
+            }           
+            nodeRekap newNodeRekap = new nodeRekap(new rekapsistem20(newNode.data.name_or_namaPesanan, 1));
+            tailRekap.next = newNodeRekap;
+            tailRekap = newNodeRekap;
+        }
+        
     }
 
     //method yang akan mencetak pesanan yang terurut berdasarkan nama pesanan
@@ -138,6 +165,19 @@ public class linkListSistem20 {
             System.out.println("");
         } else {
             System.out.println("Pesanan masih kosong");
+        }
+
+        //cetak rekap
+        if (headRekap != null) {
+            nodeRekap tmp = headRekap;
+            System.out.printf("%-16s \n", "Hasil Rekap");
+            while (tmp != null) {
+                tmp.data.printRekap();
+                tmp = tmp.next;
+            }
+            System.out.println("");
+        } else {
+            System.out.println("Rekap masih kosong");
         }
 
     }
