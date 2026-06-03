@@ -20,7 +20,6 @@ public class BinaryTreeArrayMain20 {
         bta.add(mhs5);
         bta.add(mhs6);
         bta.add(mhs7);
-        System.out.println(bta.idxLast);
         System.out.println("\nInorder Traversal Mahasiswa: ");
         bta.traverseInOrder(0);
         System.out.println("\nPreorder Traversal Mahasiswa: ");
