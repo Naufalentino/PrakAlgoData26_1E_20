@@ -21,7 +21,7 @@ Hasil running program Percobaan 14.2
 
 2. Untuk menyambungkan ke node selanjutnya, seperti yang ada pada node linked list yang berupa next atau prev.
 
-3. a. Root digunakan untuk menyimpan nilai tree paling awal, seperti head pada linked list.
+3. a. Root digunakan untuk menyimpan nilai tree paling awal, seperti head pada linked list.<br>
    b. Nilai awal root adalah null.
 
 4. Traverse untuk mencari node atau tempat yang kosong lalu mengisinya dengan data yang baru.
