@@ -18,6 +18,13 @@ public class DemoArrayList20{
         Customer20 customer = customers.get(1);
         System.out.println(customer.name);
         customer.name = "Budi Utomo";
+
+        ArrayList<Customer20> newCustomers = new ArrayList<>();
+        newCustomers.add(new Customer20(201, "Della"));
+        newCustomers.add(new Customer20(202, "Victor"));
+        newCustomers.add(new Customer20(203, "Sarah"));
+        
+        customers.addAll(newCustomers);
         
         for (Customer20 cust : customers){
             System.out.println(cust.toString());
