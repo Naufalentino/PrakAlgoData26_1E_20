@@ -13,6 +13,8 @@ public class DemoArrayList20{
         
         customers.add(2, new Customer20(100, "Rosa"));
         
+        System.out.println(customers.indexOf(customer2));
+        
         for (Customer20 cust : customers){
             System.out.println(cust.toString());
         }
