@@ -21,9 +21,14 @@ public class StackDemo20 {
         if (temp2 != null) {
             System.out.println(temp2.toString());
         }
+
+        System.out.println();
         
         for (Book20 book : books) {
             System.out.println(book.toString());
         }
+
+        System.out.println();
+        System.out.println(books);
     }
 }
