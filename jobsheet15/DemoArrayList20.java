@@ -32,5 +32,7 @@ public class DemoArrayList20{
         for (Customer20 cust : customers){
             System.out.println(cust.toString());
         }
+
+        
     }
 }
