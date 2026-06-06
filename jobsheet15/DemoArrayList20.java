@@ -15,6 +15,10 @@ public class DemoArrayList20{
         
         System.out.println(customers.indexOf(customer2));
         
+        Customer20 customer = customers.get(1);
+        System.out.println(customer.name);
+        customer.name = "Budi Utomo";
+        
         for (Customer20 cust : customers){
             System.out.println(cust.toString());
         }
