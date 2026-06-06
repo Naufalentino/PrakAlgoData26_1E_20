@@ -8,5 +8,9 @@ public class DemoArrayList20{
         
         customers.add(customer1);
         customers.add(customer2);
+
+        for (Customer20 cust : customers){
+            System.out.println(cust.toString());
+        }
     }
 }
