@@ -4,11 +4,13 @@ public class DemoArrayList20{
         ArrayList<Customer20> customers = new ArrayList<>(2);
         
         Customer20 customer1 = new Customer20(1, "Zakia");
-        Customer20 customer2 = new Customer20(2, "Budi");
+        Customer20 customer2 = new Customer20(5, "Budi");
         
         customers.add(customer1);
         customers.add(customer2);
 
+        customers.add(new Customer20(4, "Cica"));
+        
         for (Customer20 cust : customers){
             System.out.println(cust.toString());
         }
