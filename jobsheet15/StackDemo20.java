@@ -9,5 +9,17 @@ public class StackDemo20 {
         books.push(book1);
         books.push(book2);
         books.push(book3);
+        
+        Book20 temp = books.peek();
+
+        if (temp != null) {
+            System.out.println(temp.toString());
+        }
+        
+        Book20 temp2 = books.pop();
+
+        if (temp2 != null) {
+            System.out.println(temp2.toString());
+        }
     }
 }
