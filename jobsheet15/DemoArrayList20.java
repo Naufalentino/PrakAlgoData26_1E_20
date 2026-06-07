@@ -26,6 +26,8 @@ public class DemoArrayList20{
         
         customers.addAll(newCustomers);
         
+        customers.sort((c1,c2)->c1.name.compareTo(c2.name));
+        
         System.out.println(customers);
         System.out.println("\n\n");
         
