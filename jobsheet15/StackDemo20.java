@@ -30,5 +30,13 @@ public class StackDemo20 {
 
         System.out.println();
         System.out.println(books);
+        
+        int temp3 = books.search(book1);
+        if (temp3 != -1) {
+            System.out.println("true / ada di "+ temp3);
+        } else {
+            System.out.println("false / tidak ada");
+        }
+        
     }
 }
