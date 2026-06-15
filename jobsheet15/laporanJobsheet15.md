@@ -8,10 +8,19 @@
 ## 15.3 Praktikum - Implementasi ArrayList
 Hasil running program Percobaan 15.3
 
-
+<img width="1111" height="278" alt="Screenshot 2026-06-15 164404" src="https://github.com/user-attachments/assets/236612eb-ca17-4192-92b5-47012a397fc6" />
 
 
 ### Pertanyaan Percobaan 15.3
+
+
+<img width="605" height="310" alt="Screenshot 2026-06-11 075500" src="https://github.com/user-attachments/assets/72211d74-c839-4403-a064-0b5a1f50c444" />
+
+<img width="605" height="57" alt="Screenshot 2026-06-11 075514" src="https://github.com/user-attachments/assets/b36d2205-259a-432e-ad49-49e161b47ec8" />
+
+<img width="527" height="29" alt="Screenshot 2026-06-11 075523" src="https://github.com/user-attachments/assets/53911430-31c8-41df-8446-4b1ad635ae2f" />
+
+<img width="619" height="57" alt="Screenshot 2026-06-11 075536" src="https://github.com/user-attachments/assets/387b798f-e6fc-48ee-b742-93a2c5386367" />
 
 
 
