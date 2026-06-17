@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -49,6 +48,14 @@ public class ListMahasiswa20 {
         
         return Collections.binarySearch(mahasiswas, key, comp);
     }
+    
+    public void sortingAscending() {
+        Collections.sort(mahasiswas, (m1, m2) -> m1.nim.compareTo(m2.nim));
+    }
+    
+    public void sortingDescending() {
+        Collections.sort(mahasiswas, (m1, m2) -> m2.nim.compareTo(m1.nim));
+    }
 
     public static void main(String[] args) {
         ListMahasiswa20 lm = new ListMahasiswa20();
@@ -63,6 +70,14 @@ public class ListMahasiswa20 {
         // lm.update(lm.linearSeacrch("201235"), new Mahasiswa2000("201235", "Akhleema Lela", "021xx2"));
         lm.update(lm.binarySearch("201235"), new Mahasiswa2000("201235", "Akhleema Lela", "021xx2"));
         System.out.println("");
+        lm.tampil();
+        
+        System.out.println("");
+        lm.sortingAscending();
+        lm.tampil();
+
+        System.out.println("");
+        lm.sortingDescending();
         lm.tampil();
     }
     
