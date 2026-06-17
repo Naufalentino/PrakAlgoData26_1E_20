@@ -13,6 +13,6 @@ public class Mahasiswa2000 {
     
     @Override
     public String toString(){
-        return "Mahasiswa{" + "nim=" + nim + ", nama=" + nama + ", notelp=" + notelp + '}' ;
+        return String.format("%-10s | %-15s | %-10s", nim, nama, notelp);
     }
 }
