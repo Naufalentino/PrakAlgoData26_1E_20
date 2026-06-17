@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class ListMahasiswa20 {
@@ -25,13 +26,28 @@ public class ListMahasiswa20 {
         });
     }
 
-    int linearSeacrch(String nim) {
-        for (int i = 0; i < mahasiswas.size(); i++) {
-            if (nim.equals(mahasiswas.get(i).nim)) {
-                return i;
+    // int linearSeacrch(String nim) {
+    //     for (int i = 0; i < mahasiswas.size(); i++) {
+    //         if (nim.equals(mahasiswas.get(i).nim)) {
+    //             return i;
+    //         }
+    //     }
+    //     return -1;
+    // }
+    
+    int binarySearch(String nim) {
+        Comparator<Mahasiswa2000> comp = new Comparator<Mahasiswa2000>() {
+            @Override
+            public int compare(Mahasiswa2000 m1, Mahasiswa2000 m2) {
+                return m1.nim.compareTo(m2.nim);
             }
-        }
-        return -1;
+        };
+        
+        Collections.sort(mahasiswas, comp);
+        
+        Mahasiswa2000 key = new Mahasiswa2000(nim, "", "");
+        
+        return Collections.binarySearch(mahasiswas, key, comp);
     }
 
     public static void main(String[] args) {
@@ -43,8 +59,9 @@ public class ListMahasiswa20 {
         lm.tambah(m, m1, m2);
         
         lm.tampil();
-
-        lm.update(lm.linearSeacrch("201235"), new Mahasiswa2000("201235", "Akhleema Lela", "021xx2"));
+        
+        // lm.update(lm.linearSeacrch("201235"), new Mahasiswa2000("201235", "Akhleema Lela", "021xx2"));
+        lm.update(lm.binarySearch("201235"), new Mahasiswa2000("201235", "Akhleema Lela", "021xx2"));
         System.out.println("");
         lm.tampil();
     }
