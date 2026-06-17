@@ -1,3 +1,4 @@
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.Stack;
 
@@ -35,5 +36,11 @@ public class LoopCollection20 {
         for (int i = 0; i < fruits.size(); i++) {
             System.out.printf("%s ", fruits.get(i));
         }
+        System.out.println("");
+        fruits.push("Mango");
+        fruits.push("guava");
+        fruits.push("avocado");
+        Collections.sort(fruits);
+        System.out.println(fruits);
     }
 }
