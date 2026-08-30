@@ -7,7 +7,8 @@ public class StackMain20 {
         StackSurat20 stack = new StackSurat20(10);
         Scanner tino = new Scanner(System.in);
         int pilih;
-
+        
+        //ini adalah menu
         do {
             System.out.println("\nMenu:");
             System.out.println("1. Memproses Surat Izin");
